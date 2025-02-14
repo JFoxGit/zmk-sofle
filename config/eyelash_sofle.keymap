@@ -68,11 +68,11 @@
 
         layer_1 {
             bindings = <
-&kp TILDE       &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6  &kp F7  &kp F8    &kp F9         &kp F10    &kp NON_US_BACKSLASH
-&kp F11         &kp F12          &kp UP_ARROW    &kp CAPSLOCK     &kp PRINTSCREEN  &none              &mmv MOVE_DOWN   &none   &none   &none     &none          &kp MINUS  &kp PLUS
-&trans          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp DELETE         &mmv MOVE_LEFT   &none   &none   &kp HOME  &none          &none      &none
-&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &none   &none   &kp END   &none          &none      &trans
-&kp C_MUTE      &trans           &kp LCTRL       &kp LEFT_ALT     &trans           &trans             &mkp LCLK        &trans  &trans  &trans    &kp RIGHT_ALT  &kp RCTRL
+&kp TILDE       &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6     &kp F7     &kp F8    &kp F9         &kp F10    &kp NON_US_BACKSLASH
+&kp F11         &kp F12          &kp UP_ARROW    &kp CAPSLOCK     &kp PRINTSCREEN  &none              &mmv MOVE_DOWN   &none      &none      &none     &none          &kp MINUS  &kp PLUS
+&trans          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp DELETE         &mmv MOVE_LEFT   &none      &none      &kp HOME  &none          &none      &none
+&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &none      &none      &kp END   &none          &none      &trans
+&kp C_MUTE      &trans           &kp LCTRL       &kp LEFT_ALT     &kp SPACE        &kp KP_ENTER       &mkp LCLK        &kp ENTER  &kp SPACE  &trans    &kp RIGHT_ALT  &kp RCTRL
             >;
 
             display-name = "layer1";
