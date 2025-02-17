@@ -62,7 +62,7 @@
 &kp C_MUTE  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp SPACE  &kp KP_ENTER    &mkp LCLK        &kp ENTER  &kp SPACE  &kt LANGUAGE_1  &kp RCTRL  &kp RIGHT_ALT
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp KC_MS_WH_UP KC_MS_WH_DOWN>;
             display-name = "LAYER0";
         };
 
