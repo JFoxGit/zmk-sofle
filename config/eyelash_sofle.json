@@ -80,7 +80,7 @@
         "compatible": "alps,ec11",
         "label": "LEFT_ENCODER",
         "enabled": true,
-        "bindings": ["K_MS_WH_DOWN", "K_MS_WH_UP"]
+        "bindings": ["KC_MS_WH_DOWN", "KC_MS_WH_UP"]
       }
     ]
   }
