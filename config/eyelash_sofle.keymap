@@ -62,19 +62,19 @@
             display-name = "LAYER0";
         };
 
-        layer_1 {
+        layer_1_Arrow {
             bindings = <
-&kp TILDE       &kp F1          &kp F2          &kp F3           &kp F4           &kp F5          &mmv MOVE_UP     &kp F6     &kp F7     &kp F8    &kp F9         &kp F10    &kp NON_US_BACKSLASH
-&none           &none           &kp UP_ARROW    &kp CAPSLOCK     &kp PRINTSCREEN  &none           &mmv MOVE_DOWN   &none      &none      &none     &none          &kp MINUS  &kp PLUS
-&trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp DELETE      &mmv MOVE_LEFT   &none      &none      &kp HOME  &none          &none      &none
-&kp LEFT_SHIFT  &none           &none           &none            &none            &none           &mmv MOVE_RIGHT  &none      &none      &kp END   &none          &none      &trans
-&kp C_MUTE      &trans          &kp LEFT_ALT    &kp LCTRL        &kp SPACE        &kp KP_ENTER    &mkp LCLK        &kp ENTER  &kp SPACE  &trans    &kp RIGHT_ALT  &kp RCTRL
+&kp TILDE       &kp F1          &kp F2          &kp F3           &kp F4           &kp F5          &mmv MOVE_UP     &kp F6     &kp F7     &kp F8     &kp F9         &kp F10    &kp NON_US_BACKSLASH
+&none           &none           &kp UP_ARROW    &kp CAPSLOCK     &kp PRINTSCREEN  &none           &mmv MOVE_DOWN   &none      &none      &none      &none          &kp MINUS  &kp PLUS
+&trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp DELETE      &mmv MOVE_LEFT   &none      &none      &kp HOME   &none          &none      &none
+&kp LEFT_SHIFT  &none           &none           &none            &none            &none           &mmv MOVE_RIGHT  &none      &none      &kp END    &none          &none      &kp RIGHT_SHIFT
+&kp C_MUTE      &trans          &kp LEFT_ALT    &kp LCTRL        &kp SPACE        &kp KP_ENTER    &mkp LCLK        &kp ENTER  &kp SPACE  &kp RCTRL  &kp RIGHT_ALT  &none
             >;
 
             display-name = "layer1";
         };
 
-        layer_2 {
+        layer_2_Func {
             bindings = <
 &none   &kp F1      &kp F2   &kp F3       &kp F4  &kp F5     &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
 &trans  &kp F6      &kp F7   &kp F8       &kp F9  &kp F10    &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
