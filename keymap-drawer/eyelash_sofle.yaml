@@ -60,7 +60,7 @@ layers:
   - 2_Func
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: LANGUAGE 1, h: toggle}
+  - {t: LANG1, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - MENU
