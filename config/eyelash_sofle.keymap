@@ -73,25 +73,26 @@
             >;
 
             display-name = "layer1";
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_2_Func {
             bindings = <
-&none   &kp F1      &kp F2   &kp F3       &kp F4  &kp F5     &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans  &kp F6      &kp F7   &kp F8       &kp F9  &kp F10    &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans  &kp F11     &kp F12  &trans       &trans  &trans     &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &none        &none
-&trans  &sys_reset  &trans   &bootloader  &trans  &trans     &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
+&none   &kp F1      &kp F2   &kp F3       &kp F4  &kp F5     &kp UP_ARROW     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
+&trans  &kp F6      &kp F7   &kp F8       &kp F9  &kp F10    &kp DOWN_ARROW   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&trans  &kp F11     &kp F12  &trans       &trans  &trans     &kp LEFT_ARROW   &trans  &trans  &trans      &trans     &none        &none
+&trans  &sys_reset  &trans   &bootloader  &trans  &trans     &kp RIGHT_ARROW  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
 &trans  &trans      &trans   &trans       &trans  &trans     &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
         };
 
         layer_3_NUM {
             bindings = <
-&kp TILDE  &kp N1        &kp N2        &kp N3     &kp N4     &kp N5       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp N6        &kp N7        &kp N8     &kp N9     &kp N0       &none   &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans        &kp MINUS  &kp PLUS   &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans        &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &none        &trans  &trans  &trans  &trans  &trans  &trans
+&kp TILDE  &kp N1        &kp N2        &kp N3     &kp N4     &kp N5       &kp UP_ARROW     &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp N6        &kp N7        &kp N8     &kp N9     &kp N0       &kp DOWN_ARROW   &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans        &trans        &kp MINUS  &kp PLUS   &kp EQUAL    &kp LEFT_ARROW   &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans        &trans        &trans     &trans     &trans       &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &none        &mkp LCLK        &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
