@@ -65,11 +65,11 @@
 
         layer_1_Arrow {
             bindings = <
-&kp TILDE       &kp F1          &kp F2          &kp F3           &kp F4           &kp F5          &mmv MOVE_UP     &kp F6     &kp F7     &kp F8     &kp F9         &kp F10    &kp NON_US_BACKSLASH
-&none           &none           &kp UP_ARROW    &kp CAPSLOCK     &kp PRINTSCREEN  &none           &mmv MOVE_DOWN   &none      &none      &none      &none          &kp MINUS  &kp PLUS
-&trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp DELETE      &mmv MOVE_LEFT   &none      &none      &kp HOME   &none          &none      &none
-&kp LEFT_SHIFT  &none           &none           &none            &none            &none           &mmv MOVE_RIGHT  &none      &none      &kp END    &none          &none      &kp RIGHT_SHIFT
-&kp C_MUTE      &trans          &kp LEFT_ALT    &kp LCTRL        &kp SPACE        &kp KP_ENTER    &mkp LCLK        &kp ENTER  &kp SPACE  &kp RCTRL  &kp RIGHT_ALT  &none
+&kp TILDE       &kp F1          &kp F2          &kp F3           &kp F4           &kp F5          &mmv MOVE_UP     &kp F6     &kp F7      &kp F8            &kp F9             &kp F10    &kp NON_US_BACKSLASH
+&none           &none           &kp UP_ARROW    &kp CAPSLOCK     &kp PRINTSCREEN  &none           &mmv MOVE_DOWN   &none      &none       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp PLUS
+&trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp DELETE      &mmv MOVE_LEFT   &none      &kp INSERT  &kp HOME          &kp PAGE_UP        &none      &none
+&kp LEFT_SHIFT  &none           &none           &none            &none            &none           &mmv MOVE_RIGHT  &none      &none       &kp END           &kp PG_DN          &none      &kp RIGHT_SHIFT
+&kp C_MUTE      &trans          &kp LEFT_ALT    &kp LCTRL        &kp SPACE        &kp KP_ENTER    &mkp LCLK        &kp ENTER  &kp SPACE   &kp RCTRL         &kp RIGHT_ALT      &none
             >;
 
             display-name = "layer1";
@@ -79,7 +79,7 @@
         layer_2_Func {
             bindings = <
 &none   &kp F1      &kp F2   &kp F3       &kp F4  &kp F5     &kp UP_ARROW     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans  &kp F6      &kp F7   &kp F8       &kp F9  &kp F10    &kp DOWN_ARROW   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&trans  &kp F6      &kp F7   &kp F8       &kp F9  &kp F10    &kp DOWN_ARROW   &trans  &trans  &kp F11     &kp F12    &none        &none
 &trans  &kp F11     &kp F12  &trans       &trans  &trans     &kp LEFT_ARROW   &trans  &trans  &trans      &trans     &none        &none
 &trans  &sys_reset  &trans   &bootloader  &trans  &trans     &kp RIGHT_ARROW  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
 &trans  &trans      &trans   &trans       &trans  &trans     &mkp LCLK        &trans  &trans  &trans      &trans     &trans
@@ -88,11 +88,11 @@
 
         layer_3_NUM {
             bindings = <
-&kp TILDE  &kp N1        &kp N2        &kp N3     &kp N4     &kp N5       &kp UP_ARROW     &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp N6        &kp N7        &kp N8     &kp N9     &kp N0       &kp DOWN_ARROW   &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans        &kp MINUS  &kp PLUS   &kp EQUAL    &kp LEFT_ARROW   &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans        &trans     &trans     &trans       &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &none        &mkp LCLK        &trans  &trans  &trans  &trans  &trans
+&kp TILDE  &kp N1        &kp N2        &kp N3     &kp N4        &kp N5       &kp UP_ARROW     &kp KP_NUMLOCK  &kp SLASH  &kp ASTERISK  &kp MINUS     &trans   &trans
+&trans     &kp N6        &kp N7        &kp N8     &kp N9        &kp N0       &kp DOWN_ARROW   &kp N7          &kp N8     &kp N9        &kp PLUS      &trans   &trans
+&trans     &trans        &trans        &kp MINUS  &kp PLUS      &kp EQUAL    &kp LEFT_ARROW   &kp N4          &kp N5     &kp N6        &kp EQUAL     &trans   &trans
+&trans     &trans        &trans        &kp SLASH  &kp ASTERISK  &trans       &kp RIGHT_ARROW  &kp N1          &kp N2     &kp N3        &kp KP_ENTER  &trans   &trans
+&trans     &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT     &none        &mkp LCLK        &trans          &trans     &kp RCTRL     &kp RALT      &kp DOT
             >;
         };
     };
