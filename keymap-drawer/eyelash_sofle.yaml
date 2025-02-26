@@ -79,7 +79,7 @@ layers:
   - F10
   - \
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-tab$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-caps$$
   - PRINTSCREEN
