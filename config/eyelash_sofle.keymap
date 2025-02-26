@@ -91,7 +91,7 @@
 &kp TILDE  &kp N1        &kp N2        &kp N3     &kp N4        &kp N5       &kp UP_ARROW     &kp KP_NUMLOCK  &kp SLASH  &kp ASTERISK  &kp MINUS     &trans   &trans
 &trans     &kp N6        &kp N7        &kp N8     &kp N9        &kp N0       &kp DOWN_ARROW   &kp N7          &kp N8     &kp N9        &kp PLUS      &trans   &trans
 &trans     &trans        &trans        &kp MINUS  &kp PLUS      &kp EQUAL    &kp LEFT_ARROW   &kp N4          &kp N5     &kp N6        &kp EQUAL     &trans   &trans
-&trans     &trans        &trans        &kp SLASH  &kp ASTERISK  &trans       &kp RIGHT_ARROW  &kp N1          &kp N2     &kp N3        &kp KP_ENTER  &trans   &trans
+&trans     &trans        &trans        &kp SLASH  &kp ASTERISK  &trans       &kp RIGHT_ARROW  &kp N1          &kp N2     &kp N3        &kp KP_ENTER  &trans   &none
 &trans     &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT     &none        &mkp LCLK        &trans          &trans     &kp RCTRL     &kp RALT      &kp DOT
             >;
         };
